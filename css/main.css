@@ -1,0 +1,131 @@
+/*Body and General Styles*/
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+header {
+	background: #607D8B;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+
+.bs {
+	font-size: 6em;
+	font-weight: 700;
+	line-height: 210px;
+	color: #607D8B;
+	background-color: #fff;
+	margin: 70px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.logo {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav {
+  background: #455a64;
+  text-align: center;
+  padding: 8px 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0; /* was 5px left and right*/
+}
+
+nav a {
+	padding: 15px 10px;
+	color: #fff;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+	padding: 15px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul ul {
+	width: 120px;
+	display: none;
+	position: absolute;
+	margin: 17px 0 0 -70px;
+	background-color: #90a4ae;
+	text-align: center;
+}
+
+nav ul ul li {
+	width: 100%;
+	padding: 5px;
+}
+
+nav ul ul li:hover {
+	background-color: #cfd8dc;
+	color: #455a64;
+}
+
+nav ul ul a:visited {
+	color: #fff;
+}
+
+#home {
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 0;
+	padding: 15px 20px;
+	float: left;
+	top: 0;
+	right: 0;
+}
+
+h1 {
+	margin: 5%;
+}
+
+p {
+	margin: 0 5% 0;
+}
+
+
+
+
+
