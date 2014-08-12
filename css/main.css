@@ -29,12 +29,12 @@ header {
 .bs {
 	font-size: 4em;
 	font-weight: 400;
-	line-height: 110px;
+	line-height: 160px;
 	color: #607D8B; /*blue-gray 500 (normal)*/ 
 	background-color: #fff;
 	margin: 50px auto 10px;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 }
 
@@ -211,15 +211,7 @@ footer p {
 	border: 5px solid #455a64;
 }
  
-h1 {
-	margin: 2.5% 5%;
-	color: #455a64;
-}
 
-p {
-	margin: 0 5% 5%;
-	font-size: 1em;
-}
 
 
 
