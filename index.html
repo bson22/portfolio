@@ -6,24 +6,24 @@
 	<title>BSon-Web Dev</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
-	
 </head>
 <body>
 	<nav>
 		<ul>
 			<li>
-				<a href="" class="bars">
-					<i class="fa fa-bars fa-lg"></i> 
-				</a>
-						<ul>
-							<li><a href=""> Home </a></li>
-							<li><a href=""> About </a></li>
-							<li><a href=""> Contact </a></li>
+					<a class="bars">
+						<i class="fa fa-bars fa-lg"></i> 
+					</a>
+						<ul class="hiddenNav">
+							<li><a href="index.html"> Home </a></li>
+							<li><a href="about.html"> About </a></li>
+							<li><a href="contact.html"> Contact </a></li>
 						</ul>
 			</li>
 		</ul>
@@ -38,10 +38,44 @@
 	<div id="wrapper">
 		<section>
 			<h1>HI!</h1>
-			<p>Welcome to my site!  My name is Brian and I love web development.  This site is for you to get to know a little bit about myself!</p>
+			<p>Welcome to my site.  My name is Brian and I love web development.  This site is for you to get to know a little bit about myself!  Check out some of my code on <a href="https://github.com/bson22">GitHub</a> below.</p>
+			<ul id="grid">
+				<li>
+					<a href="https://github.com/bson22/ait-website">
+						<img src="img/ait-screenshot.png" alt="">
+						<p>American International Tooling mockup</p>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/bson22/req-rent">
+						<img src="img/rentreq-screenshot.png" alt="">
+						<p>Req-Rent Personal Project in AngularJS</p>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/bson22/portfolio">
+						<img src="img/portfolio-screenshot.png" alt="">
+						<p>GitHub link for this website!</p>
+					</a>
+				</li>
+
+			</ul>
 		</section>
 	</div>
 	<footer>
-	</footer>
+		<div id="icon-wrap">
+			<a href="https://plus.google.com/u/0/104761899400805695851/posts" class="social-icon"><i class="fa fa-google-plus fa-lg"></i></a>
+        	<a href="https://twitter.com/bson22" class="social-icon"><i class="fa fa-twitter fa-lg"></i></a>
+        	<a href="https://www.facebook.com/bson222" class="social-icon"><i class="fa fa-facebook fa-lg"></i></a>
+        </div>
+        <p>&copy; 2014 Brian Son</p>
+     </footer>
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+
 </body>
 </html>
