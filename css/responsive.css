@@ -25,6 +25,11 @@
 		margin: 0 5% 80px 0;
 	}
 
+	/*Contact Page*/
+	.contact-info a {
+		font-size: 1.2em;
+	}
+
 }
 
 
